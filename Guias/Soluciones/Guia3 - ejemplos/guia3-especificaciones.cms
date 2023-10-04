@@ -1,0 +1,26 @@
+problema absoluto (n: Z) :N {
+	requiere: true
+	asegura: res es igual al aplicar el modulo a n
+}
+
+
+problema max(n,m : Z) :Z { 
+	REQUIERE: true
+	ASEGURA: si n >= m entonces res = n ,
+	         en otro caso res = m
+}
+
+problema maximoabsoluto (n,m: Z) :N {
+	REQUIERE: true 
+	ASEGURA: res = max(|n|,|m|)
+}
+
+problema maximo3 (x,y,z : Z):Z {
+	REQUIERE: true
+	ASEGURA: res = max( max(x,y) , z) 
+}
+
+problema algunoEs0 (n,m: Z):Z {
+	requiere: true
+	ASEGURA: res = true si y solo si n=0 o m=0
+}	 
