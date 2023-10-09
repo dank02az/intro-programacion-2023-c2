@@ -138,24 +138,128 @@ def devolver_valor_si_es_par_sino_el_que_sigue(numero: int) -> int:
     return res
 
 
-def ordenados (lista: list) -> bool:
-    res: bool = True
-    i=1
-    for elem in lista:
-        ultimoElem = lista[len(lista)-1] 
-        if elem != ultimoElem :
-           siguienteElem = lista[i]
-           if not elem <= siguienteElem:
-              res = False
-              break
-        if elem == ultimoElem :
-           break
+def devolver_el_doble_si_es_multiplo3_el_triple_si_es_multiplo9(numero: int) -> int:
+    res: bool = 0
+    if es_multiplo_de (numero,3):
+        res: bool = 2 * numero
+    if es_multiplo_de (numero, 9):
+        res: bool = 3 * numero
+    return res           
+
+def lindo_nombre(nombre: str) -> str:  
+    res: str = "Tu nombre tiene menos de 5 caracteres"
+    if len(nombre) >= 5: 
+        res = "Tu nombre tiene muchas letras!"
+    return res
+
+def elRango(numero: int) -> str:
+    res :str = ''
+    if numero < 5 :
+       res = "Menor a 5"
+    if numero >= 10 and numero <= 20:
+       res = "Entre 10 y 20"
+    if numero > 20:
+       res = "Mayor a 20"         
+    return res
+
+def vacaciones(edad: int, sexo: str):
+    sexo = sexo.upper()
+    
+    res: str = "Anda de vaciones"
+    if edad >= 18:
+       res = "Te toca trabajar"      
+    if sexo == "F" and edad > 60:
+       res = "Anda de vaciones" 
+    if sexo == "F" and edad <= 60:
+       res = "Te toca trabajar"  
+    if sexo == "M" and edad <= 65: 
+       res = "Te toca trabajar"      
+    if sexo == "M" and edad > 65:
+       res = "Anda de vacaciones"
+    return res   
+ 
+# Ejercicio 6::..
+
+def uno_al_diez():
+    i=1 
+    while i <= 10 :
+        print(i)
         i+=1
-    return res      
-
-print(imprimir_dos_veces("Hola, mundo!"))
 
 
+def pares_10_40 ():
+    i=10
+    while i <= 40:
+        print(i)
+        i+=2
 
 
+def eco_10():
+    i=10
+    while i<=10:
+      print("Eco")        
+      i+=1
 
+def cuenta_regresiva(n: int):
+    i=n
+    while i >= 0:
+      print(i)
+      i-=1
+    return 'Despegue!'     
+
+
+def viaje_al_pasado(partida: int, llegada: int) -> str : 
+    año = partida
+    while not año == llegada:
+        print(f"Viajo 1 año al pasado, estamos en el año {año}")
+        año-=1
+    return ''
+
+def monitoreoDeViaje(partida: int) -> str:
+    año: int = partida
+    llegada: int = -384
+    while not año <= llegada:
+          data = f"{año} d.C" 
+          if año < 0 :
+            data = f"{(-1)* año} a.C"            
+          print(f"Viajo 20 años al pasado, estamos en el año {data}")
+          año-= 20
+    return ''      
+
+# Ejercicio 7::..
+
+def uno_al_diez_for():
+    for i in range(0,11):
+        print(i)
+
+
+def pares_10_40_for():
+    for i in range(10,41,2):
+        print(i)
+
+def eco_10_for():
+    for i in range(0,11):
+        print("eco")
+
+def cuenta_regresiva_for(hasta: int) -> int:
+    for i in range(hasta,-1,-1):
+        print(i)
+    return "Despegue!"    
+
+def viaje_en_el_tiempo(partida: int, llegada: int) -> str:
+    año: int = partida
+    for i in range(partida,llegada-1,-1):
+        print(f"Viajo un año al pasado, estamos en el año: {año}")
+    return ""
+
+
+def monitoreo_de_viaje_for(partida: int):
+    año: int = partida
+    llegada: int = -384
+    for i in range(partida, llegada-1,-20):
+          data = f"{año} d.C" 
+          if año < 0 :
+            data = f"{(-1)* año} a.C"            
+          print(f"Viajo 20 años al pasado, estamos en el año {data}")
+          año-= 20
+    return ''    

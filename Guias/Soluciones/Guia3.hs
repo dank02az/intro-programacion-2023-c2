@@ -1,4 +1,6 @@
---EJERCICIO 1::..
+module Guia3 where
+
+-- EJERCICIO 1::..
 
 f :: Integer -> Integer
 f 1 = 8
@@ -10,7 +12,7 @@ g 8 = 16
 g 16 = 4
 g 131 = 1
 
---EJERCICIO 2::..
+-- EJERCICIO 2::..
 
 absoluto :: Integer -> Integer
 absoluto n | n<=0 = n*(-1)
@@ -148,7 +150,7 @@ comparar a b | sumaUltimosDosDigitos(a) < sumaUltimosDosDigitos(b)  = 1
 
 sumatoriaInterna :: Integer -> Integer -> Integer
 sumatoriaInterna _ 0= 0
-sumatoriaInterna i j = sumatoriaInterna (i-1) + i^j
+sumatoriaInterna i j = sumatoriaInterna (i-1) j + i^j
 
 sumatoriaDoble :: Integer -> Integer -> Integer
-sumatoriaDoble i j = sumatoriaDoble j-1 + sumatoriaInterna i j   
+sumatoriaDoble i j = sumatoriaDoble (j-1) i + sumatoriaInterna i j   

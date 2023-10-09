@@ -1,5 +1,6 @@
 module Otras where
 
+import Guia3
 import Guia5
 import Guia4
 
