@@ -8,6 +8,8 @@ Cursada: 1er cuatrimestre 2023
 
 ## Índice
 
+#### Guias
+
 - Soluciones
 
   - [Guia 1 - Logica](Guias/Soluciones/#)
@@ -18,35 +20,31 @@ Cursada: 1er cuatrimestre 2023
   - [HUnit  - Testing de caja Negra](Guias/Soluciones/testHUnit.hs)
   - [Guía 6 - Intro a Python](Guias/Soluciones/Guia6.py)
 
-- Guias [Enunciados]
+- Enunciados
 
-  - [Guia 1 - Logica](Guias/Enunciados/Guia1 - Lógica.pdf)
-  - [Guia 2 - Especificacion de problemas](Guias/Enunciados/Guia2 - Especificación de problemas.pdf)
-  - [Guia 3 - Intro a Haskell](Guias/Enunciados/Guia3 - Introducción a Haskell.pdf)
-  - [Guia 4 - Recursión sobre enteros](Guias/Enunciados/Guia4 - Recursión sobre números enteros.pdf)
-  - [Guia 5 - Recursión sobre listas](Guias/Enunciados/Guia5 - Recursión sobre listas.pdf)
-  - [Guía xx - Testing de caja Negra](Guias/Enunciados/Guia6 - Testing de caja Negra.pdf)
-  - [Guía 6  - Intro a Python](Guias/Enunciados/Guia7 - Introducción a Lenguaje Imperativo.pdf)
+  - [Guia 1 - Logica](Guias/Enunciados/Guia1%20-%20Lógica.pdf)
+  - [Guia 2 - Especificacion de problemas](Guias/Enunciados/Guia2%20-%20Especificación%20de%20problemas.pdf)
+  - [Guia 3 - Intro a Haskell](Guias/Enunciados/Guia3%20-%20Introducción%20a%20Haskell.pdf)
+  - [Guia 4 - Recursión sobre enteros](Guias/Enunciados/Guia4%20-%20Recursión%20sobre%20números%20enteros.pdf)
+  - [Guia 5 - Recursión sobre listas](Guias/Enunciados/Guia5%20-%20Recursión%20sobre%20listas.pdf)
+  - [HUnit - Testing de caja Negra](Guias/Enunciados/#)
+  - [Guía 6  - Intro a Python](Guias/Enunciados/Guia6%20-%20Introduccion%20a%20Lenguaje%20Imperativo.pdf)
 
+##
 
-- Clases Teoricas
+#### Visto en clases
 
-  - [Teórica 01 - Introduccion a la Programacion](Teoricas/Teorica1 - Introduccion a la Programacion.pdf)
-  - [Teórica 02 - Lógica proposicional](Teoricas/Teorica2 - Lógica proposicional.pdf)
-  - [Teórica 03 - Introduccion a la especificación de problemas](Teoricas/Teorica3 - Introduccion a la especificación de problemas.pdf)
-  - [Teórica 04 - Lenguajes y Paradigmas de programación -- Buenas Prácticas de Programación](Teoricas/Teorica4 - Lenguajes y Paradigmas de programación -- Buenas Prácticas de Programación.pdf)
-  - [Teórica 05 - Funcional Básico](Teoricas/Teorica1.pdf)
-  - [Teórica 06 - Mecanismo de recursión](Teoricas/Teorica1.pdf)
-  - [Teórica 07 - Extensión - especificación - slides](Teoricas/Teorica1.pdf)
-  - [Teórica 07 - Recursión sobre listas](Teoricas/Teorica1.pdf)
-  - [Teórica 08 - Introducción a calidad en software](Teoricas/Teorica1.pdf)
-  - [Teórica 09 - Testing de Caja Negra](Teoricas/Teorica1.pdf)
-  - [Teórica 10 - Introducción a la Programación Imperativa](Teoricas/Teorica1.pdf)
-  - [Teórica 11 - Programación Imperativa - Estructuras de Control](Teoricas/Teorica1.pdf)
-  - [Teórica 12 - Programación Imperativa - Arrays y Listas](Teoricas/Teorica1.pdf)
-  - [Teórica 13 - Programación Imperativa -  Otros TAD](Teoricas/Teorica1.pdf)
+- Teoricas
+
+  - [Teórica 1 - Introduccion a la Programacion](Clases%20Teoricas/Teórico%201%20-%20Introducción%20a%20la%20materia.pdf)
+  - [Teórica 2 - Lógica proposicional](Clases%20Teoricas/Teórico%202%20-%20Lógica%20Proposicional.pdf)
+  - [Teórico 3 - Estructura de una especificación](Clases%20Teoricas/Teórico%203%20-%20Estructura%20de%20una%20especificación.pdf)
+  - [Teórica 4 - Intro a funcional ](Clases%20Teoricas/Teórico%204%20-%20Intro%20a%20Funcional.pdf)
+  - [Teórica 5 - Recursion Sobre Listas](Teórico%205%20-%20Listas.%20Recursión%20sobre%20listas.pdf)
+  - [Teórica 6 - Int. a la Validacion & Verificacion](Clases%20Teoricas/Te%C3%B3rico%206%20-%20Introducci%C3%B3n%20a%20Validaci%C3%B3n%20%26%20Verificaci%C3%B3n.pdf)
+  - [Teórico 7 - Introducción a imperativo (Python) + Estructuras de control.pdf](Clases%20Teoricas/Te%C3%B3rico%207%20-%20Introducci%C3%B3n%20a%20imperativo%20%2B%20Estructuras%20de%20control.pdf)
+
 
   
 - Entregas
   - [Simulacro](/Entregas/Simulacro)
-
