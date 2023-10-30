@@ -293,6 +293,36 @@ def buscar_el_maximo(c: Cola) -> int:
    
     return res 
 
+# 16.
+
+def armarSecuenciaDeBingo()-> Cola([int]):
+    c = Cola()
+    
+    lista = []
+    for i in range(0,100):
+        lista.append(i)
+    random.shuffle(lista)  
+    
+    for i in lista:
+        c.put(i)
+      
+    return c  
+
+def jugar_carton_de_bingo(carton: list([int]), bolillero: Cola([int]) ) -> int:
+    marcarCarton: int = 0
+    lista = []
+    bingo: bool = False
+    jugadas: int = 0
+    
+    for i in range(0,bolillero.qsize()+1):
+        while marcarCarton <= len(carton)-1:
+            lista.append(bolillero.get())
+            if lista[i] in carton:
+               marcarCarton +=1     
+            jugadas +=1 
+
+    return jugadas   
+    
     
 # genNrosAlAzar =  lambda n,desde,hasta : random.sample([x for x in range(desde,hasta+1)], n)
 
