@@ -19,6 +19,7 @@ Cursada: 2do cuatrimestre 2023
   - [Guia 5 - Recursión sobre listas](Guias/Soluciones/Guia5.hs)
   - [HUnit  - Testing de caja Negra](Guias/Soluciones/testHUnit.hs)
   - [Guía 6 - Intro a Python](Guias/Soluciones/Guia6.py)
+  - [Guía 7 - Funciones sobre listas (tipos complejos)](Guias/Soluciones/Guia7.py)
 
 - Enunciados
 
@@ -29,7 +30,7 @@ Cursada: 2do cuatrimestre 2023
   - [Guia 5 - Recursión sobre listas](Guias/Enunciados/Guia5%20-%20Recursión%20sobre%20listas.pdf)
   - [HUnit - Testing de caja Negra](Guias/Enunciados/#)
   - [Guía 6  - Intro a Python](Guias/Enunciados/Guia6%20-%20Introduccion%20a%20Lenguaje%20Imperativo.pdf)
-  - [Guía 7  - Funciones sobre listas (tipos complejos)](Gu%C3%ADa%207-%20Funciones%20sobre%20listas%20%28tipos%20complejos%29.pdf)  
+  - [Guía 7  - Funciones sobre listas (tipos complejos)](Guias/Enunciados/Gu%C3%ADa%207-%20Funciones%20sobre%20listas%20%28tipos%20complejos%29.pdf)  
 
 ##
 

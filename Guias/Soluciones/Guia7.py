@@ -1,4 +1,5 @@
 import random
+import numpy as np
 
 def pertenece(lista: list, e: int) -> bool:
     res: bool = False
@@ -319,22 +320,32 @@ def filasOrdenadas(Matriz: list)-> bool :
            break  
     return res      
 
-print(sieteYMedio())       
 
 
+def elevarMatriz(d: int, p: int):
+    m = np.random.random((d, d))**2 
+    res = m.copy()
+    
+    # multiplica cualquier matriz z por una matriz m fija
+    def matrizPorM(z):
+    # voy a modificar la var res   
+        i=0
+        while i <= len(m)-1:
+            for j in range(d):
+                res[i][j] = m[i][j] * z[j][i]       
+            i+=1                        
+    
+    k = 2
 
+    if p==1:
+       res = m
+    else:       
+        while k <= p:
+            matrizPorM(res)
+            print(f'{k} \n')
+            k+=1
+    
+    return res
+        
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(elevarMatriz(3, 3))

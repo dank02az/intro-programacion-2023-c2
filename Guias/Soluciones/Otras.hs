@@ -43,9 +43,10 @@ combinatorio n k = div (factorial n) ( (factorial k) * factorial (n-k))
 divisoresDe :: Integer -> [Integer]
 divisoresDe n = divisoresDesde n 1 
 
+
 divisoresDesde :: Integer -> Integer -> [Integer]
 divisoresDesde n k | k > n = []
-                   | k<=n && mod n k == 0 = (-k):k : divisoresDesde n (k+1)
+                   | k<=n && mod n k == 0 = k : divisoresDesde n (k+1)
                    | otherwise = divisoresDesde n (k+1)  
   
 x :: (Num t) => t -> t -> t
@@ -57,7 +58,8 @@ porcentaje n m = fromInteger (m * n) / fromInteger 100
 
 
 
- 
+descomponerEnPrimosN ::  Integer -> [[Integer]]
+descomponerEnPrimosN n = descomponerEnPrimos [n] 
 
 
 
