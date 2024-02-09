@@ -1,11 +1,3 @@
----
-tags: [intro-resumen]
-title: teorica7 Programacion Imperativa
-created: '2023-12-07T11:34:15.487Z'
-modified: '2024-01-04T00:45:24.705Z'
----
-
-_teorica7_ Programacion Imperativa
 
 # Programacion Imperativa
 
