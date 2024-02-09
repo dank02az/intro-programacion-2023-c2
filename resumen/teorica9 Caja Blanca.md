@@ -1,12 +1,3 @@
----
-attachments: [Captura desde 2023-12-05 12-07-50.png, CFG.svg, CFG2.svg]
-tags: [intro, intro-resumen]
-title: teorica9 Caja Blanca
-created: '2023-12-05T14:13:09.102Z'
-modified: '2023-12-14T15:08:46.992Z'
----
-
-_teorica9_ Caja Blanca
 
 # Test de Caja Blanca 
 
