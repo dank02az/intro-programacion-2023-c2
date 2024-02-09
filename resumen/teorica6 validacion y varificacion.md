@@ -79,7 +79,7 @@ OBS: si el __Comportamiento Real = Comportamiento Esperado__ el testCase no enco
 
   *En la materia se usa Test HUnit (Haskell) para hacer Caja Negra*
 
-  * <u> __Test de Caja Blanca__ </u>: [✍](@note/teorica3 Caja Blanca.md)
+  * <u> __Test de Caja Blanca__ </u>:
   Los casos de test se generan analizando la **implementación** para determinar los casos de test.
 
   *En la materia se usa CFG (Pyhton) para hacer Caja Blanca*
