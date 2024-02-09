@@ -1,11 +1,3 @@
----
-tags: [intro-resumen]
-title: teorica5 Polimorfismo
-created: '2023-12-06T12:31:46.447Z'
-modified: '2024-01-04T00:37:23.118Z'
----
-
-_teorica5_ Polimorfismo
 
 # Polimorfismo
 
