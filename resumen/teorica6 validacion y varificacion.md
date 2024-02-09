@@ -1,11 +1,3 @@
----
-tags: [intro-resumen]
-title: teorica6 validacion y varificacion
-created: '2023-12-06T12:58:27.430Z'
-modified: '2024-01-10T00:35:46.427Z'
----
-
-_teorica6_ validacion y varificacion
 
 # Validacion y Verificacion 
 
