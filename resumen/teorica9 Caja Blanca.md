@@ -7,7 +7,7 @@ Se usa con el **CFG** para obtener __testCases__.
 ### CFG (Control Flow Graph)
 
 <p align="center">
-  <img src="@attachment/CFG2.svg" width="192">
+  <img src="/resumen/CFG2.svg" width="192">
 </p>
 
 
@@ -19,9 +19,6 @@ de verdad para una tupla <programa, test suite>
 
 Como sabemos si un **testSuite es Bueno**?
 Cada nodo (sentencia) en el CFG debe ser ejecutado **al menos una vez** por algún test case.
-
-
-<p style="display:none" align="center"><img src="@attachment/Captura desde 2023-12-05 12-07-50.png" min-width="100%"/></p>
 
 
 ### Resumen de Criterios de Adecuacion
