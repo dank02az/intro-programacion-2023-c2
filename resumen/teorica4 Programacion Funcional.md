@@ -1,11 +1,3 @@
----
-tags: [intro-resumen]
-title: teorica4 Programacion Funcional
-created: '2023-12-06T11:41:26.770Z'
-modified: '2024-01-04T00:32:26.474Z'
----
-
-_teorica4_ Programacion Funcional
 
 # Programacion Funcional
 
