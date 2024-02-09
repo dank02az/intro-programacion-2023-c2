@@ -1,11 +1,3 @@
----
-tags: [intro, intro-resumen]
-title: teorica3 Especificacion
-created: '2023-12-05T13:02:56.125Z'
-modified: '2024-01-04T00:16:35.462Z'
----
-
-_teorica3_ Especificacion
 
 # Especificacion
 
