@@ -97,7 +97,12 @@ Se llaman __abstracto__ porque quien lo usa no tiene por saber o conocer como es
 Ejemplo De TAD en la materia : __Pila__ y __Cola__
 
 #
-### APIS
 
-...
 
+### Que es una API?
+
+* API significa (Application Programing Interfaz).
+
+* El termino API esta relacionado con poder **usar desde un programa funcionalidades de otro programa.**
+
+* Una API encapsula el comportamiento de otro programa y en muchos casos, es similar al uso de un TAD.
