@@ -52,7 +52,9 @@ __Importante__: El testing puede demostrar la presencia de errores nunca su ause
 
 <br>
 
-Ejemplo de TESTING :
+<hr>
+
+<u>Ejemplo de TESTING</u> :
 
 ```haskell
    sumar :: Int -> Int -> Int
@@ -65,12 +67,12 @@ Ejemplo de TESTING :
 
 OBS: si el __Comportamiento Real = Comportamiento Esperado__ el testCase no encontro errores.
 
-#TestCase: 
-  | entrada | valor de salida | valor esperado |
+_#TestCase_: 
+  | entrada | salida (comportamiento real) | valor esperado |
   |-|-|-|
-  |a=1 ,b=2| -1 | 3 |
+  |a=1  b=2| -1 | 3 |
 
-
+<hr>
 
 ### Tipos de testing
 
