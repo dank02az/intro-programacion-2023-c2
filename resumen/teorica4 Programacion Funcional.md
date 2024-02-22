@@ -19,7 +19,7 @@ Es una propiedad muy importante, la cual nos dice que el valor de las ***expresi
 
 #
 
-### Tipos de Datos y Clases de Datos
+### Tipos de Datos y Clases de Tipos
 
 1. <u>__Tipos de Datos__</U>: son conjuntos de valores a los cuales se les puede aplicar diversas operaciones
    * Ejemplos: en Haskell 
@@ -30,13 +30,13 @@ Es una propiedad muy importante, la cual nos dice que el valor de las ***expresi
      |Float|{ +, -, / }|
      |Char|{ ++ , tail, head }|   
 
-2. <u>__Clases de Datos__</u>: son conjuntos de Tipos de Datos 
+2. <u>__Clases de Tipos__</u>: son conjuntos de Tipos de Datos 
    * Ejemplos: en Haskell
 
-     |Clase| Tipos|
-     |-|-|
-     |Fractional|{ Float }|
-     |Ord|{ Int,Float }|
-     |Eq|{ Int }|
-     |Otro|{ Char }|
+     |Clase| Tipos|operaciones|
+     |-|-|-|
+     |Fractional|{ Float, Double, ◦..}|{(/),◦..}
+     |Floating|{ Int,Float,◦.. }|{sqrt, sin, cos, tan,◦..}|
+     |Eq|{ Bool, Int, Integer, Float, Double,◦.. }|{ (==), (/=)}|
+     |Num|{ Int, Integer, Float, Double,◦.. }| {(+), (∗), abs,◦.. }|
 
